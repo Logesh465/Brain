@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        * {
+            padding: 0;
+            margin: 0;
+        }
+
+        header {
+            background-image: url('https://rare-gallery.com/thumbnail/457441-minimalism-gradient-blurred-simple-simple-background.jpg');
+            background-repeat: no-repeat;
+            background-size: cover;
+        }
+
+        nav {
+            display: flex;
+            justify-content: space-between;
+            background-color: aliceblue;
+            color: black;
+        }
+
+        .loki {
+            display: flex;
+            gap: 20px;
+        }
+
+        .loki ul {
+            display: flex;
+            gap: 20px;
+            list-style: none;
+            position: absolute;
+            top: 13px;
+            left: 60px;
+        }
+
+        .apple {
+            height: 85vh;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+            display: flex;
+            flex-direction: column;
+        }
+
+        footer {
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+        }
+
+        
+
+        @media (max-width: 768px) {
+            nav {
+                display: none;
+            }
+
+            
+
+            .apple h1 {
+                font-size: 40px;
+            }
+
+            .apple {
+                height: 100vh;
+            }
+        }
+
+        
+    </style>
+</head>
+
+<body>
+    <header>
+        <nav>
+            <div class="loki">
+                <h3>Kutty</h3>
+                <ul>
+                    <li>Conatct</li>
+                    <li>Support</li>
+                    <li>Info</li>
+                </ul>
+
+            </div>
+            <div class="loki1">
+                <button style="margin: 6px; border-radius: 4px; width: 70px;">
+                    Sign in
+                </button>
+                <button style="margin: 6px; border-radius: 4px;width: 70px;">
+                    Login
+                </button>
+            </div>
+        </nav>
+
+
+        <div class="apple" style="color: aliceblue;">
+            <h1>Hello Techies</h1>
+            <p style="padding: 20px;">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+            <button
+                style="width: 80px; border-radius: 8px; height: 30px; background-color: black; color: aliceblue;">Next</button><br><br>
+            <div>
+                <button
+                    style="width: 80px; border-radius: 8px; height: 30px;  background-image: url('https://rare-gallery.com/thumbnail/457441-minimalism-gradient-blurred-simple-simple-background.jpg'); color: aliceblue;">Sign
+                    in</button>
+                <button
+                    style="width: 80px; border-radius: 8px; height: 30px; background-image: url('https://rare-gallery.com/thumbnail/457441-minimalism-gradient-blurred-simple-simple-background.jpg'); color: aliceblue;">Login</button>
+            </div>
+    </header>
+    <footer>
+        <h1
+            style="background-color: aliceblue; color: black; font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; padding: 20px;">
+            @Thank You</h1>
+    </footer>
+
+</body>
+
+</html>
